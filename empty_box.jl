@@ -28,7 +28,7 @@ function main()
     initial2 = dirac_delta()
     
     t_norm_final1 = 0.05
-    t_norm_final2 = 0.0001
+    t_norm_final2 = 0.1
 
     Psi_evolved1 = Psi_evolve(t_norm_final1,
                             eigen_states=vecs,
@@ -40,7 +40,11 @@ function main()
                             eigen_vals=vals,
                             Psi_initial=initial2)
 
-    # plot inital wfs
+    N_time = 1000
+    dt = t_norm_final2/N_time
+    
+    Psi_evolved2_cn = crank_nicolson(H, N_time, dt, initial2)
+
     plt.title(string(L"t'_{final} = ", t_norm_final1))
     plt.xlabel("x'")
     plt.ylabel(L"\Psi")
@@ -59,8 +63,19 @@ function main()
     plt.savefig("time_evolve_emptybox_2.pdf")
     plt.show()
 
-    println(dot(Psi_evolved1, Psi_evolved1))
-    println(dot(Psi_evolved2, Psi_evolved2))
+    plt.title(string(L"t'_{final} = ", t_norm_final2))
+    plt.xlabel("x'")
+    plt.ylabel(L"\Psi")
+    plt.plot(initial2, label="initial")
+    plt.plot(Psi_evolved2_cn, label="evolved")
+    plt.legend()
+    plt.savefig("time_evolve_emptybox_2_cn.pdf")
+    plt.show()
+
+    println("delta: ", dot(initial2, initial2))
+    println("ev1: ", dot(Psi_evolved1, Psi_evolved1))
+    println("ev2: ", dot(Psi_evolved2, Psi_evolved2))
+    println("ev2 cn", dot(Psi_evolved2_cn, Psi_evolved2_cn))
 end
 
 

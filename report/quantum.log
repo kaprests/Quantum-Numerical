@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.1)  29 APR 2020 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.1)  1 MAY 2020 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -56,10 +56,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-
-(/usr/share/texmf-dist/tex/latex/base/latin1.def
-File: latin1.def 2018/08/11 v1.3c Input encoding file
-))
+)
 (/usr/share/texmf-dist/tex/latex/todo/todo.sty
 Package: todo 2010/03/31 v2.4142 To-do list (Federico Garcia)
 
@@ -324,6 +321,69 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box30
 )
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2019/04/01 v2.17c AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen124
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen125
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count105
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count106
+\leftroot@=\count107
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count108
+\DOTSCASE@=\count109
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen126
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count110
+\c@MaxMatrixCols=\count111
+\dotsspace@=\muskip11
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
+\tag@help=\toks24
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
+\andhelp@=\toks25
+\eqnshift@=\dimen127
+\alignsep@=\dimen128
+\tagshift@=\dimen129
+\tagwidth@=\dimen130
+\totwidth@=\dimen131
+\lineht@=\dimen132
+\@envbody=\toks26
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2855.
+LaTeX Info: Redefining \] on input line 2856.
+)
+(/usr/share/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
+\CurrentLineWidth=\dimen133
+\TabPrevPos=\dimen134
+)
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
@@ -332,26 +392,26 @@ File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 ) (./quantum.aux)
 \openout1 = `quantum.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-1.
+3.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    ... okay on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -393,17 +453,17 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen124
-\scratchbox=\box31
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen125
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count117
+\scratchdimen=\dimen135
+\scratchbox=\box33
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen136
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -451,118 +511,193 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count111
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+\c@lstlisting=\count123
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<./media/eigenvalues_empty_box.pdf, id=1, 462.52798pt x 346.89601pt>
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<./media/eigenvalues_empty_box.pdf, id=19, 462.52798pt x 346.89601pt>
 File: ./media/eigenvalues_empty_box.pdf Graphic file (type pdf)
 <use ./media/eigenvalues_empty_box.pdf>
 Package pdftex.def Info: ./media/eigenvalues_empty_box.pdf  used on input line 
-48.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/eigenval_ratio_empty_box.pdf, id=2, 462.52798pt x 346.89601pt>
+113.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+<./media/eigenval_ratio_empty_box.pdf, id=20, 462.52798pt x 346.89601pt>
 File: ./media/eigenval_ratio_empty_box.pdf Graphic file (type pdf)
 <use ./media/eigenval_ratio_empty_box.pdf>
 Package pdftex.def Info: ./media/eigenval_ratio_empty_box.pdf  used on input li
-ne 54.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/eigenstates_empty_box.pdf, id=3, 462.52798pt x 346.89601pt>
+ne 119.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 112--123
+[][] [] 
+ []
+
+[2]
+<./media/eigenstates_empty_box.pdf, id=25, 462.52798pt x 346.89601pt>
 File: ./media/eigenstates_empty_box.pdf Graphic file (type pdf)
 <use ./media/eigenstates_empty_box.pdf>
 Package pdftex.def Info: ./media/eigenstates_empty_box.pdf  used on input line 
-60.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/wf_error_scaling.pdf, id=4, 462.52798pt x 346.89601pt>
+130.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+<./media/wf_error_scaling.pdf, id=26, 462.52798pt x 346.89601pt>
 File: ./media/wf_error_scaling.pdf Graphic file (type pdf)
 <use ./media/wf_error_scaling.pdf>
-Package pdftex.def Info: ./media/wf_error_scaling.pdf  used on input line 66.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/time_evolve_emptybox_1.pdf, id=5, 462.52798pt x 346.89601pt>
-File: ./media/time_evolve_emptybox_1.pdf Graphic file (type pdf)
-<use ./media/time_evolve_emptybox_1.pdf>
-Package pdftex.def Info: ./media/time_evolve_emptybox_1.pdf  used on input line
- 72.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/time_evolve_emptybox_2.pdf, id=6, 462.52798pt x 346.89601pt>
-File: ./media/time_evolve_emptybox_2.pdf Graphic file (type pdf)
-<use ./media/time_evolve_emptybox_2.pdf>
-Package pdftex.def Info: ./media/time_evolve_emptybox_2.pdf  used on input line
- 78.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/bound_eigenstates_barrier.pdf, id=7, 462.52798pt x 346.89601pt>
+Package pdftex.def Info: ./media/wf_error_scaling.pdf  used on input line 136.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 129--140
+[][] [] 
+ []
+
+[3 <./media/eigenvalues_empty_box.pdf> <./media/eigenval_ratio_empty_box.pdf
+
+pdfTeX warning: pdflatex (file ./media/eigenval_ratio_empty_box.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./media/eigenstates_empty_box.pdf
+
+pdfTeX warning: pdflatex (file ./media/eigenstates_empty_box.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./media/wf_error_scaling.pdf
+
+pdfTeX warning: pdflatex (file ./media/wf_error_scaling.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>]
+<./media/bound_eigenstates_barrier.pdf, id=191, 462.52798pt x 346.89601pt>
 File: ./media/bound_eigenstates_barrier.pdf Graphic file (type pdf)
 <use ./media/bound_eigenstates_barrier.pdf>
 Package pdftex.def Info: ./media/bound_eigenstates_barrier.pdf  used on input l
-ine 86.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/initial_state.pdf, id=8, 462.52798pt x 346.89601pt>
-File: ./media/initial_state.pdf Graphic file (type pdf)
-<use ./media/initial_state.pdf>
-Package pdftex.def Info: ./media/initial_state.pdf  used on input line 92.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/time_evolve_surface.pdf, id=9, 462.52798pt x 346.89601pt>
-File: ./media/time_evolve_surface.pdf Graphic file (type pdf)
-<use ./media/time_evolve_surface.pdf>
-Package pdftex.def Info: ./media/time_evolve_surface.pdf  used on input line 98
-.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/f_of_lambda_roots.pdf, id=10, 462.52798pt x 346.89601pt>
+ine 183.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+<./media/f_of_lambda_roots.pdf, id=192, 462.52798pt x 346.89601pt>
 File: ./media/f_of_lambda_roots.pdf Graphic file (type pdf)
 <use ./media/f_of_lambda_roots.pdf>
-Package pdftex.def Info: ./media/f_of_lambda_roots.pdf  used on input line 104.
+Package pdftex.def Info: ./media/f_of_lambda_roots.pdf  used on input line 189.
 
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/steps_before_euler_collapse.pdf, id=11, 462.52798pt x 346.89601pt>
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 181--193
+[][] [] 
+ []
+
+<./media/time_evolve_emptybox_1.pdf, id=193, 462.52798pt x 346.89601pt>
+File: ./media/time_evolve_emptybox_1.pdf Graphic file (type pdf)
+<use ./media/time_evolve_emptybox_1.pdf>
+Package pdftex.def Info: ./media/time_evolve_emptybox_1.pdf  used on input line
+ 200.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+<./media/steps_before_euler_collapse.pdf, id=194, 462.52798pt x 346.89601pt>
 File: ./media/steps_before_euler_collapse.pdf Graphic file (type pdf)
 <use ./media/steps_before_euler_collapse.pdf>
 Package pdftex.def Info: ./media/steps_before_euler_collapse.pdf  used on input
- line 114.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
-<./media/crank_nicolson.pdf, id=12, 462.52798pt x 346.89601pt>
-File: ./media/crank_nicolson.pdf Graphic file (type pdf)
-<use ./media/crank_nicolson.pdf>
-Package pdftex.def Info: ./media/crank_nicolson.pdf  used on input line 120.
-(pdftex.def)             Requested size: 500.484pt x 375.38315pt.
- [1
+ line 206.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+<./media/time_evolve_emptybox_2.pdf, id=195, 462.52798pt x 346.89601pt>
+File: ./media/time_evolve_emptybox_2.pdf Graphic file (type pdf)
+<use ./media/time_evolve_emptybox_2.pdf>
+Package pdftex.def Info: ./media/time_evolve_emptybox_2.pdf  used on input line
+ 212.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+<./media/time_evolve_emptybox_2_cn.pdf, id=196, 462.52798pt x 346.89601pt>
+File: ./media/time_evolve_emptybox_2_cn.pdf Graphic file (type pdf)
+<use ./media/time_evolve_emptybox_2_cn.pdf>
+Package pdftex.def Info: ./media/time_evolve_emptybox_2_cn.pdf  used on input l
+ine 218.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./media/eigenvalues_em
-pty_box.pdf>] [3 <./media/eigenval_ratio_empty_box.pdf>] [4 <./media/eigenstate
-s_empty_box.pdf>] [5 <./media/wf_error_scaling.pdf>] [6 <./media/time_evolve_em
-ptybox_1.pdf>] [7 <./media/time_evolve_emptybox_2.pdf>] [8 <./media/bound_eigen
-states_barrier.pdf>]
-[9 <./media/initial_state.pdf>] [10 <./media/time_evolve_surface.pdf>] [11 <./m
-edia/f_of_lambda_roots.pdf>] [12 <./media/steps_before_euler_collapse.pdf>]
-[13 <./media/crank_nicolson.pdf>] (./quantum.aux)
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 199--222
+[][] []
+ []
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 199--222
+[] [] 
+ []
+
+[4 <./media/bound_eigenstates_barrier.pdf> <./media/f_of_lambda_roots.pdf
+
+pdfTeX warning: pdflatex (file ./media/f_of_lambda_roots.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `fig:crank-nicolson' on page 5 undefined on input line
+ 225.
+
+<./media/initial_state.pdf, id=254, 462.52798pt x 346.89601pt>
+File: ./media/initial_state.pdf Graphic file (type pdf)
+<use ./media/initial_state.pdf>
+Package pdftex.def Info: ./media/initial_state.pdf  used on input line 231.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+<./media/time_evolve_surface.pdf, id=255, 462.52798pt x 346.89601pt>
+File: ./media/time_evolve_surface.pdf Graphic file (type pdf)
+<use ./media/time_evolve_surface.pdf>
+Package pdftex.def Info: ./media/time_evolve_surface.pdf  used on input line 23
+7.
+(pdftex.def)             Requested size: 250.24199pt x 187.68098pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 230--241
+[][] [] 
+ []
+
+[5 <./media/time_evolve_emptybox_1.pdf> <./media/steps_before_euler_collapse.pd
+f
+
+pdfTeX warning: pdflatex (file ./media/steps_before_euler_collapse.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./media/time_evolve_emptybox_2.pdf
+
+pdfTeX warning: pdflatex (file ./media/time_evolve_emptybox_2.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./media/time_evolve_emptybox_2_cn.pdf
+
+pdfTeX warning: pdflatex (file ./media/time_evolve_emptybox_2_cn.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>] [6 <./media/initial_state.pdf> <./media/time_evolve_surface.pdf
+
+pdfTeX warning: pdflatex (file ./media/time_evolve_surface.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] (./quantum.aux)
+
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5884 strings out of 492167
- 87733 string characters out of 6131559
- 334456 words of memory out of 5000000
- 10156 multiletter control sequences out of 15000+600000
- 9189 words of font info for 35 fonts, out of 8000000 for 9000
+ 6563 strings out of 492167
+ 95628 string characters out of 6131559
+ 348042 words of memory out of 5000000
+ 10810 multiletter control sequences out of 15000+600000
+ 13383 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,6n,51p,274b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr17.pfb>
-Output written on quantum.pdf (13 pages, 219795 bytes).
+ 46i,9n,51p,990b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
+/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></
+usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on quantum.pdf (6 pages, 349617 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
+ 546 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -123,10 +123,10 @@ function Psi_evolve(t_norm; eigen_states, eigen_vals, Psi_initial)
 end
 
 
-function dirac_delta(;N=NUM_POINTS)
+function dirac_delta(;N=NUM_POINTS, divider=2)
     """ INCOMPLETE Create normalized delta function at x' = 1/2 """
     Psi_delta = zeros(N)
-    Psi_delta[div(N, 2)] = NUM_POINTS
+    Psi_delta[div(N, divider)] = NUM_POINTS
     Psi_delta
 end
 

@@ -128,20 +128,20 @@ function high_barrier()
     ### Time evolution ###
     ######################
 
+    t_norm_final = pi/(vals[2] - vals[1]) # Final time
 
     # Define and plot initial state
     initial = (1/sqrt(2))*(vecs[:, 1] + vecs[:, 2])
-    plt.title(L"\Psi_0")
     plt.xlabel("x'")
     plt.ylabel(L"\Psi")
-    plt.plot(initial, label=L"(1 \left / \sqrt{2})(\psi_0 + \psi_1) \right.")
+    plt.plot(initial, label="initial")
+    plt.plot(Psi_evolve(t_norm_final, eigen_states=vecs, eigen_vals=vals, Psi_initial=initial))
     plt.legend()
-    plt.savefig("initial_state.pdf")
+    plt.savefig("initial_and_final_state.pdf")
     plt.show()
 
     ### Eigen expansion ###
 
-    t_norm_final = pi/(vals[2] - vals[1])
     num_timesteps = 1000
     dt = t_norm_final/num_timesteps
     prob_dist_matrix = zeros(num_timesteps, length(initial))
@@ -180,7 +180,8 @@ function high_barrier()
     N_time = t_end/dt
 
     #Psi_initial_step = vecs[:, 1]
-    Psi_initial_step = initial
+    #Psi_initial_step = initial
+    Psi_initial_step = dirac_delta(divider=6)
     plt.plot(Psi_initial_step)
     plt.show()
     plt.legend()
